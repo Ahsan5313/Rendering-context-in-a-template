@@ -1,0 +1,15 @@
+ {% extends 'layout.html' %} 
+
+ {% block title %}Profile Page{% endblock title %}Profile Page
+
+ {% block content %}
+ 
+ {% include 'profilrCard.html' %}
+
+   <h4>Name : {{name}}</h4>
+   <h3>Nick Name : {{nick_name}}</h3>
+   <h2>Dak Name : {{dak_name}}</h2>
+
+ <h1 class= 'text-center'>This is our profile page <h1>
+ 
+ {% endblock content %}
